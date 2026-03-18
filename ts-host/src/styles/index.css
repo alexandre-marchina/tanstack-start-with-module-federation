@@ -1,0 +1,164 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family:
+    "JetBrains Mono",
+    "Fira Code",
+    "SF Mono",
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+  background: #0f1419;
+  color: #f0f6fc;
+}
+
+p {
+  margin: 0;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+.container-box {
+  min-height: 100vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 720px;
+}
+
+.poc-badge {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  background: linear-gradient(135deg, #238636 0%, #2ea043 100%);
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.poc-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, #f0f6fc 0%, #b1bac4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.poc-subtitle {
+  font-size: 1rem;
+  color: #b1bac4;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.remote-demo {
+  width: 100%;
+  padding: 1.5rem;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.remote-demo-label {
+  font-size: 0.7rem;
+  color: #b1bac4;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.75rem;
+  justify-content: space-between;
+}
+
+.section-title {
+  font-size: 0.85rem;
+  color: #b1bac4;
+  margin-bottom: 1rem;
+}
+
+.poc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  width: 100%;
+}
+
+.poc-card {
+  padding: 1rem 1.25rem;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.poc-card:hover,
+.poc-card:focus {
+  border-color: #79c0ff;
+  box-shadow: 0 0 0 1px #79c0ff;
+}
+
+.poc-card h2 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.poc-card p {
+  font-size: 0.8rem;
+  color: #b1bac4;
+  line-height: 1.4;
+}
+
+.arrow-right {
+  width: 1rem;
+  opacity: 0.7;
+}
+
+.card {
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: auto;
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  width: auto;
+  min-width: fit-content;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+}
+
+.card:hover,
+.card:focus {
+  border-color: #79c0ff;
+  transform: none;
+}

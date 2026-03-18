@@ -1,0 +1,10 @@
+{
+  "latestErrorEvent": {
+    "code": "TYPE-001",
+    "message": "Failed to generate type declaration. Execute the below cmd to reproduce and fix the error. #TYPE-001\nargs: {\"cmd\":\"npx tsc --project /Users/alexandre.marchina/workspace/tanstack-start-with-module-federation/ts-remote-bff/node_modules/.federation/tsconfig.2167e786dc20b42ea31c14e90f96fbfa.json\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/type#type-001",
+    "args": {
+      "cmd": "npx tsc --project /Users/alexandre.marchina/workspace/tanstack-start-with-module-federation/ts-remote-bff/node_modules/.federation/tsconfig.2167e786dc20b42ea31c14e90f96fbfa.json"
+    },
+    "timestamp": 1773854604246
+  }
+}
